@@ -56,5 +56,14 @@ layout: page
     {%- endif %}
   </article>
 
+  {% if page.content -%}
+  <div>
+    <hr>
+    {{ page.content | markdownify }}
+    {%- else -%}
+    {{ content }}
+  </div>
+  {%- endif %}
+
 </div>
 

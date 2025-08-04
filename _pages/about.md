@@ -1,6 +1,6 @@
 ---
 layout: profiles
-title: Bleher
+title: Bleher Academic Directory
 permalink: /
 subtitle:
 profiles:
