@@ -13,17 +13,17 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://michael.bleher.me
 
+  - align: left
+    image: hannah_bleher.png
+    content: hannah_bleher.md
+    image_circular: false # crops the image to make it circular
+    website: https://hannah.bleher.me
+
   # - align: right
   #   image: placeholder.jpg
   #   content: katharina_bleher.md
   #   image_circular: false # crops the image to make it circular
   #   website: https://katharina.bleher.me
-
-  # - align: left
-  #   image: placeholder.jpg
-  #   content: hannah_bleher.md
-  #   image_circular: false # crops the image to make it circular
-  #   website: https://hannah.bleher.me
 
   # - align: right
   #   image: placeholder.jpg
