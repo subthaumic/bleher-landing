@@ -13,21 +13,21 @@ profiles:
     image_circular: false # crops the image to make it circular
     website: https://michael.bleher.me
 
-  - align: left
+  - align: right
     image: hannah_bleher.png
     content: hannah_bleher.md
     image_circular: false # crops the image to make it circular
     website: https://hannah.bleher.me
 
-  # - align: right
-  #   image: placeholder.jpg
-  #   content: katharina_bleher.md
-  #   image_circular: false # crops the image to make it circular
-  #   website: https://katharina.bleher.me
+  - align: left
+    image: katharina_bleher.png
+    content: katharina_bleher.md
+    image_circular: false # crops the image to make it circular
+    website: https://www.ifg.kit.edu/5248.php\
 
-  # - align: right
-  #   image: placeholder.jpg
-  #   content: johannes_bleher.md
-  #   image_circular: false # crops the image to make it circular
-  #   website: https://johannes-bleher.de
+  - align: right
+    image: johannes_bleher.png
+    content: johannes_bleher.md
+    image_circular: false # crops the image to make it circular
+    website: https://johannes-bleher.de
 ---
