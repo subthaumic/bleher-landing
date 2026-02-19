@@ -1,5 +1,5 @@
-# Katharina  Bleher
+# Katharina Bleher
 
-Group leader Analytical Biochemistry / Postdoc.\
-*Institute of Functional Interfaces*\
+Head of Bioinorganic and Analytical Chemistry Group.\
+*Institute for Functional Interfaces (IFG)*\
 *Karlsruhe Institute of Technology, Germany.*
