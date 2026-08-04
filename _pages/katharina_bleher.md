@@ -1,5 +1,5 @@
 # Katharina Bleher
 
-Head of Bioinorganic and Analytical Chemistry Group.\
-*Institute for Functional Interfaces (IFG)*\
+<span class="party">Junior Research Group Leader.</span>\
+*Bioinorganic and Analytical Chemistry, Institute for Functional Interfaces (IFG)*\
 *Karlsruhe Institute of Technology, Germany.*
