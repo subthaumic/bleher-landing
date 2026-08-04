@@ -12,7 +12,7 @@ layout: page
 
     <!-- make link to website clickable -->
     {% assign link = profile.website | default: profile.url %}
-    {% if link %}<a href="{{ link }}" class="card-link">{% endif %}
+    {% if link %}<a href="{{ link }}" class="card-link"{% if profile.tooltip %} title="{{ profile.tooltip }}" data-toggle="tooltip" data-placement="left" data-container="body" data-delay='{"show":1800,"hide":100}'{% endif %}>{% endif %}
 
     <hr>
     <div class="profile float-{%- if profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">

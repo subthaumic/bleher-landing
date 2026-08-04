@@ -1163,3 +1163,42 @@ nav[data-toggle="toc"] {
 #toc-sidebar {
   z-index: 1;
 }
+
+// Easter egg: shimmer on hover. See _pages/katharina_bleher.md.
+// inline-block is required -- transforms do not apply to inline elements.
+.party {
+  display: inline-block;
+  background-image: linear-gradient(90deg, #ff4d4d, #ffb400, #4dff88, #4dd2ff, #b84dff, #ff4d4d);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: color 0.2s ease;
+}
+
+.party:hover {
+  color: transparent;
+  animation:
+    party-sweep 1.2s linear infinite,
+    party-wiggle 0.4s ease-in-out infinite;
+}
+
+@keyframes party-sweep {
+  to {
+    background-position: 300% 0;
+  }
+}
+
+@keyframes party-wiggle {
+  50% {
+    transform: rotate(-1.5deg);
+  }
+}
+
+// Keep the colours, drop the motion.
+@media (prefers-reduced-motion: reduce) {
+  .party:hover {
+    animation: none;
+    color: transparent;
+    background-position: 50% 0;
+  }
+}
