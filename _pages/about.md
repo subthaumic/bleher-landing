@@ -24,7 +24,6 @@ profiles:
     content: katharina_bleher.md
     image_circular: false # crops the image to make it circular
     website: https://www.ifg.kit.edu/5248.php
-    tooltip: GC, BWR, NW Princess Donut The Queen Anne Chonk
 
   - align: right
     image: johannes_bleher.png
